@@ -1,5 +1,5 @@
 # This fork
-![bt-60-vuckale-layout.png]()
+![bt-60-vuckale-layout.png](https://raw.githubusercontent.com/vuckale/bt-60-zmk/vuckale/bt-60-vuckale-layout.png)
 
 
 # zmk-config
