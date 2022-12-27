@@ -1,6 +1,7 @@
 # This fork
-![bt-60-vuckale-layout.png](https://raw.githubusercontent.com/vuckale/bt-60-zmk/vuckale/bt-60-vuckale-layout.png)
+[keyboard-layout-editor.com](http://www.keyboard-layout-editor.com/#/gists/8ab48a9bfc20c4c78f0ef953ec552f7f)
 
+![bt-60-vuckale-layout.png](https://raw.githubusercontent.com/vuckale/bt-60-zmk/vuckale/bt-60-vuckale-layout.png)
 
 # zmk-config
 This is the ZMK-Config repo for the Polarity works BT60 V1 keyboard, with this you can customise your layout and keymap to suit your exact needs.
