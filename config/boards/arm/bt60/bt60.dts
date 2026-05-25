@@ -121,6 +121,10 @@ left_encoder: encoder_left {
 };
 
 &uart0 {
+    status = "disabled";
+};
+
+&uart0 {
 	compatible = "nordic,nrf-uarte";
 	tx-pin = <6>;
 	rx-pin = <8>;
