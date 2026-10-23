@@ -49,7 +49,7 @@
 // &kp SQT -> Ä ä
 // &kp LBKT -> Ü ü
 // &kp SEMI -> Ö ö
-// &reset, &bootloader -> https://zmk.dev/docs/behaviors/reset
+// &sys_reset, &bootloader -> https://zmk.dev/docs/behaviors/reset
 // layers -> https://zmk.dev/docs/behaviors/layers
 // keycodes -> https://zmk.dev/docs/codes
 // &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_CLR &bt BT_PRV &bt BT_NXT

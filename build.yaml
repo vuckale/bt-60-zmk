@@ -1,0 +1,7 @@
+# Build matrix read by ZMK's reusable GitHub workflow.
+# "bt60_custom" is the out-of-tree board in config/boards/vuckale/bt60_custom.
+# (It is deliberately not called "bt60": ZMK now ships its own in-tree
+# "bt60" board, and two boards with the same name would conflict.)
+include:
+  - board: bt60_custom
+    artifact-name: bt60

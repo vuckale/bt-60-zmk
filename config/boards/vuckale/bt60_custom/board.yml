@@ -1,0 +1,5 @@
+board:
+  name: bt60_custom
+  vendor: vuckale
+  socs:
+    - name: nrf52840

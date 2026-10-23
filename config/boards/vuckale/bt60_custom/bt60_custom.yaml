@@ -1,5 +1,6 @@
-identifier: bt60
-name: bt60
+identifier: bt60_custom/nrf52840
+name: bt60_custom
+vendor: vuckale
 type: mcu
 arch: arm
 toolchain:
