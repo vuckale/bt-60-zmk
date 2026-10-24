@@ -240,7 +240,8 @@
 	status = "disabled";
 };
 
-&usbd {
+/* zephyr_udc0 is the standard label the studio-rpc-usb-uart snippet (CDC-ACM) attaches to */
+zephyr_udc0: &usbd {
 	status = "okay";
 };
 
