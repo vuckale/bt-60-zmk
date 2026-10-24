@@ -42,6 +42,12 @@ The numpad layer has the numpad on the right hand and Bluetooth / output control
 
 `BT_CLR` is also on the last key of the bottom row of the default layer.
 
+# ZMK Studio (live remapping)
+The firmware is built with ZMK Studio (`studio-rpc-usb-uart` snippet and `CONFIG_ZMK_STUDIO=y` in `build.yaml`). Open <https://zmk.studio/> in Chrome/Edge (or use the native app), connect the keyboard over USB and pick the serial port.
+Changes are locked by default: hold Fn and press the last key of the bottom row (`&studio_unlock` on the raise layer), then Studio can edit the keymap.
+The physical key positions shown in Studio come from `default_layout` in `bt60_custom.dts`. Two empty `reserved` layers in the keymap let you add layers 3 and 4 from Studio.
+Once you change the keymap from Studio, edits to `bt60_custom.keymap` are ignored until you use "Restore Stock Settings" in Studio. Encoder (sensor) bindings can not be edited in Studio.
+
 # Customisation
 In order to change the keymap to meet your needs, you will need a GitHub account. Click the "fork" button in the top right to create your own version of the repo.
 The keymap information is contained entirely within the file `config/boards/vuckale/bt60_custom/bt60_custom.keymap`. Edit it in GitHub's web editor (press `.` on the repo page) or any text editor, or use a visual editor such as [Keymap Editor](https://nickcoutsos.github.io/keymap-editor).
